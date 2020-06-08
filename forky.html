@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8" />
     <style>
-        body{
+        body{ /* de achtergrondkleur zetten */
             margin:0;
             padding:0;
             width: 100vw;
             height: 100vh;
             background-color: rgb(95, 177, 255);
         }
-        .face{
+        .face{ /* het ovaal maken */
             position: absolute;
             width: 300px;
             height: 300px;
@@ -18,15 +19,75 @@
             top:135px;
             left:147px;
             transform:rotate(-45deg);
+            z-index: 888;
         }
-/* wordt vervolgt */
+        .face-mask{ /* het ovaal vanboven aftoppen */
+            position: absolute;
+            width: 300px;
+            height: 60px;
+            background: rgb(95,177,255);
+            top:110px;
+            left:147px;
+            z-index: 900;
+        }
+        .fork1{
+            width: 51px;
+            left:191px;
+            height: 192px;
+            background: #f0f0f0;
+            border-radius: 100% 0% 70% 30%/99% 100% 0% 1%;
+            position: absolute;
+            top: 95px;
+            z-index: 990;
+            transform:rotate(10deg);
+        }
+        .fork2{
+            width: 40px;
+            left: 245px;
+            height: 180px;
+            background: #f0f0f0;
+            border-radius: 51% 49% 70% 30%/99% 100% 0% 1%;
+            position: absolute;
+            top: 990px;
+            z-index: 990;
+        }
+        .fork3{
+            width: 40px;
+            left: 275px;
+            height: 180px;
+            background: #f0f0f0;
+            border-radius: 51% 49% 70% 30%/99% 100% 0% 1%;
+            position: absolute;
+            top: 95px;
+            z-index: 990;
+        }
+        .eyeBig {
+            width: 70px;
+            top: 50px;
+            z-index: 1999;
+            position: absolute;
+            left: 70px;
+            height: 70px;
+            border-radius: 50% 60%;
+            background-color: white;
+            border: 1px solid grey;
+            box-shadow: 1px 1px 5px #aaaaaa;
+            transform:rotate(90deg);
+        }
 
 </style>
 
 </head>
 <body>
 <div class="forky">
-<div class="face"></div>
+<div class="face">
+
+    <div class="eyeBig"></div>
+</div>
+<div class="face-mask"></div>
+    <div class="fork1"></div>
+    <div class="fork2"></div>
+    <div class="fork3"></div>
 
 </div>
 </body>

@@ -8,7 +8,8 @@
       <change beforePath="$PROJECT_DIR$/../Angular/my-first-app/my-first-app/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/my-first-app/my-first-app/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Angular/my-first-app/my-first-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/my-first-app/my-first-app/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Angular/my-first-app/my-first-app/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Angular/my-first-app/my-first-app/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forky.html" beforeDir="false" afterPath="$PROJECT_DIR$/forky.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591388983201</updated>
-      <workItem from="1591388990105" duration="1549000" />
+      <workItem from="1591388990105" duration="1592000" />
+      <workItem from="1591601297313" duration="3641000" />
     </task>
     <servers />
   </component>
